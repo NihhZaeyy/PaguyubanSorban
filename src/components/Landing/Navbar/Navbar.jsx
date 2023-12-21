@@ -1,5 +1,5 @@
 import React from "react";
-import paguyubanSorban from "../../../assets/paguyuban-sorban-logo.png";
+import paguyubanSorban from "/assets/paguyuban-sorban-logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoSearch } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";

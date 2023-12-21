@@ -1,5 +1,5 @@
 import React from "react";
-import aboutPhoto from "../../assets/Title/about.jpg";
+import aboutPhoto from "/assets/Title/about.jpg";
 
 const AboutSection = () => {
   return (

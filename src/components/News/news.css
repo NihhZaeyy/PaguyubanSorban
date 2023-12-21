@@ -23,7 +23,7 @@
 }
 
 .background-news {
-  background-image: url("/src/assets/Title/news.jpg");
+  background-image: url("/assets/Title/news.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

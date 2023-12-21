@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logoTesting from "/src/assets/paguyuban-sorban-logo.png";
+import logoTesting from "/assets/paguyuban-sorban-logo.png";
 import { BsArrowDownLeft } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { SlSocialTwitter } from "react-icons/sl";
