@@ -1,0 +1,26 @@
+.logos {
+  overflow: hidden;
+  width: 100%;
+}
+
+.logos-slide {
+  display: flex;
+  animation: scrollAnimation 15s linear infinite; /* Adjust the animation duration as needed */
+}
+
+.logos-slide img {
+  width: 150px; /* Example width */
+  height: 100px; /* Example height */
+  margin-right: 20px; /* Adjust the spacing between images */
+  transition: transform 0.5s ease; /* Smooth transition */
+}
+
+/* Keyframe animation for scrolling */
+@keyframes scrollAnimation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%); /* Adjust the distance to cover all images */
+  }
+}

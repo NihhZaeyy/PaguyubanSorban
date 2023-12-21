@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "url": "/src/assets/silaturahmi.jpg",
+    "name": "Silaturahmi"
+  },
+  {
+    "id": 2,
+    "url": "/src/assets/quran.jpg",
+    "name": "Mengaji"
+  },
+  {
+    "id": 3,
+    "url": "/src/assets/gotongroyong.jpg",
+    "name": "Berbagi"
+  },
+  {
+    "id": 4,
+    "url": "/src/assets/Title/about.jpg",
+    "name": "Berbagi"
+  },
+  {
+    "id": 5,
+    "url": "/src/assets/Title/contact.jpg",
+    "name": "Berbagi"
+  },
+  {
+    "id": 6,
+    "url": "/src/assets/Title/gallery.jpg",
+    "name": "Berbagi"
+  },
+  {
+    "id": 7,
+    "url": "/src/assets/Title/member.jpg",
+    "name": "Berbagi"
+  },
+  {
+    "id": 8,
+    "url": "/src/assets/Title/news.jpg",
+    "name": "Berbagi"
+  },
+  {
+    "id": 9,
+    "url": "/src/assets/News/bencana.jpg",
+    "name": "Berbagi"
+  },
+  {
+    "id": 10,
+    "url": "/src/assets/News/bertani.jpg",
+    "name": "Berbagi"
+  },
+  {
+    "id": 11,
+    "url": "/src/assets/News/makanbareng.jpg",
+    "name": "Berbagi"
+  },
+  {
+    "id": 12,
+    "url": "/src/assets/News/memberibantuan.jpg",
+    "name": "Berbagi"
+  },
+  {
+    "id": 13,
+    "url": "/src/assets/News/panenbuah.jpg",
+    "name": "Berbagi"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "url": "/src/assets/silaturahmi.jpg",
+    "name": "Silaturahmi dengan Anggota Paguyuban Sorban",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla viverra lacinia. Vestibulum fermentum sodales luctus. Vivamus volutpat vehicula ex nec consectetur."
+  },
+  {
+    "id": 2,
+    "url": "/src/assets/quran.jpg",
+    "name": "Tilawah bersama di malam ganjil bulan Ramadhan",
+
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla viverra lacinia. Vestibulum fermentum sodales luctus. Vivamus volutpat vehicula ex nec consectetur."
+  },
+  {
+    "id": 3,
+    "url": "/src/assets/gotongroyong.jpg",
+    "name": "Gotong Royong di desa Suka Sehat",
+
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla viverra lacinia. Vestibulum fermentum sodales luctus. Vivamus volutpat vehicula ex nec consectetur."
+  },
+  {
+    "id": 4,
+    "url": "/src/assets/News/bencana.jpg",
+    "name": "Membantu Korban Bencana Gempa",
+
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla viverra lacinia. Vestibulum fermentum sodales luctus. Vivamus volutpat vehicula ex nec consectetur."
+  },
+  {
+    "id": 5,
+    "url": "/src/assets/News/bertani.jpg",
+    "name": "Tingkat panen Desa Suka Maju meningkat 10%",
+
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla viverra lacinia. Vestibulum fermentum sodales luctus. Vivamus volutpat vehicula ex nec consectetur."
+  },
+  {
+    "id": 6,
+    "url": "/src/assets/News/makanbareng.jpg",
+    "name": "Menjalin Hubungan baik dengan anggota",
+
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla viverra lacinia. Vestibulum fermentum sodales luctus. Vivamus volutpat vehicula ex nec consectetur."
+  },
+  {
+    "id": 7,
+    "url": "/src/assets/News/memberibantuan.jpg",
+    "name": "Memberika Donasi ke Panti di daerah Banten",
+
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla viverra lacinia. Vestibulum fermentum sodales luctus. Vivamus volutpat vehicula ex nec consectetur."
+  },
+  {
+    "id": 8,
+    "url": "/src/assets/News/panenbuah.jpg",
+    "name": "Cara Desa Bahagia menghasilkan buah pilihan",
+
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla viverra lacinia. Vestibulum fermentum sodales luctus. Vivamus volutpat vehicula ex nec consectetur."
+  }
+]

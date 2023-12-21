@@ -1,0 +1,16 @@
+.accordion-header {
+  cursor: pointer;
+}
+.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+.accordion-content.show {
+  max-height: 200px;
+}
