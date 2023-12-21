@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import paguyubanSorban from "/assets/paguyuban-sorban-logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoSearch } from "react-icons/io5";
@@ -8,7 +8,14 @@ import { FaRegUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 import "./Navbar.css";
+import SideNav from "./SideNav";
+
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleClickOpen = () => {
+    setIsOpen((prevState) => !prevState);
+  };
   return (
     <div className="w-screen h-[100px] p-6 flex justify-between items-center md:px-10 fixed z-30 top-0 left-0 bg-white drop-shadow-lg">
       <Link to="/">
@@ -20,8 +27,11 @@ const Navbar = () => {
           </div>
         </div>
       </Link>
-      <div className="lg:hidden">
-        <GiHamburgerMenu size={30} />
+      <button className="lg:hidden">
+        <GiHamburgerMenu size={30} onClick={handleClickOpen} />
+      </button>
+      <div className={`fixed side-nav ${isOpen ? "show" : ""} `}>
+        <SideNav isClose={handleClickOpen} />
       </div>
       <div className="hidden lg:block">
         <ul className="flex gap-10 text-lg font-medium">
