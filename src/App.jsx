@@ -1,27 +1,29 @@
-import React from "react";
-import "./App.css";
+import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Gallery from "./pages/Gallery";
-import Member from "./pages/Member";
-import Contact from "./pages/Contact";
-import NewsPage from "./pages/NewsPage";
+import Loading from "./pages/Loading";
 
-import ScrollToTop from "./Utilities/ScrollToTop";
+const Home = lazy(() => import("./pages/Home"));
+const About = lazy(() => import("./pages/About"));
+const Gallery = lazy(() => import("./pages/Gallery"));
+const Member = lazy(() => import("./pages/Member"));
+const Contact = lazy(() => import("./pages/Contact"));
+const NewsPage = lazy(() => import("./pages/NewsPage"));
+const ScrollToTop = lazy(() => import("./Utilities/ScrollToTop"));
 
 function App() {
   return (
     <Router>
-      <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/news" element={<NewsPage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/member" element={<Member />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <Suspense fallback={<Loading />}>
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/news" element={<NewsPage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/member" element={<Member />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Suspense>
     </Router>
   );
 }
